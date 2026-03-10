@@ -26,8 +26,8 @@ class QuoteProApp(MDApp):
         sm = MDScreenManager()
         sm.add_widget(HomeScreen(name="home"))
         sm.add_widget(ProductsScreen(name="Productos"))
-        sm.add_widget(ProvidersScreen(name="providers"))
-        sm.add_widget(QuotesScreen(name="quotes"))
+        sm.add_widget(ProvidersScreen(name="Provedores"))
+        sm.add_widget(QuotesScreen(name="Cotizaciones"))
         sm.add_widget(SettingsScreen(name="settings"))
         return sm
 
